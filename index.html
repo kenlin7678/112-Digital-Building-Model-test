@@ -3,26 +3,66 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website HTML Learning</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            background-image: url(https://www.pexels.com/photo/sunset-over-the-ocean-1668030/);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+    
+        p {
+            margin-bottom: 10px;
+        }
+    
+        .button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+        .button:hover {
+            background-color: #ccc;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
-    <p>This is my personal website.</p>
+    <div class="container">
+        <h1>Hello, world!</h1>
+        <p>This is my personal website.</p>
     
-    <p>I am Kai Che Lin.</p>
-    <p>My student ID is B10805033.</p>
-    
-    <h2 id="main-title">title</h2>
-    <img src="https://assets.startbootstrap.com/img/screenshots/themes/grayscale.png" width="300" height="200">
+        <p>I am Kai Che Lin.</p>
+        <p>My student ID is B10805033.</p>
+        <p>You can click the button below to learn more about me.</p>
+        <button class="button">Learn More</button>
 
-    <p class="regular-text">This is a demo</p>
+        <h2 id="main-title">title</h2>
+        <img src="https://assets.startbootstrap.com/img/screenshots/themes/grayscale.png" width="300" height="200">
+
+        <p class="regular-text">This is a demo</p>
     
-    <p>
+        <p>
         <a href="https://startbootstrap.com/theme/grayscale" target="_blank">click</a>
         to the website
-    </p>
+        </p>
+    </div>
+    
 </body>
 
 </html>>
